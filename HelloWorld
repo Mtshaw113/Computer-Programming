@@ -43,6 +43,20 @@ public class HelloWorld {
         System.out.println(t);
         System.out.println(v);
         
+        
+        int x2 = 5;
+        int y2 = 2;
+        int z =  15;
+        double a = 2.5;
+        double b = 3;
+        
+                System.out.println("");
+                System.out.println("MATH TIME LITTLE CHILDREN");
+        System.out.println(x2/y2);
+        System.out.println(y2/b);
+        System.out.println(y2 + b);
+        System.out.println(b+y2/x);
+        
             
         
     }
