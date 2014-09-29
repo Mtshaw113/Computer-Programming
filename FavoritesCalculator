@@ -1,0 +1,32 @@
+package helloworld;
+
+import java.util.Scanner;
+
+public class FavoritesCalculator {
+        public static void main (String[] args) {
+        String greet = "Welcome to the Favorites calculator! In this calculator, we will be calculating how much you are your friend's favorite.";
+        String prompt = "Please type in your name and press ENTER";
+        
+        System.out.print(greet);
+        System.out.print(prompt);
+        System.out.print(" ");
+        
+        String a;
+        //String b;
+        
+        Scanner myScanner = new Scanner(System.in);
+        
+        a = myScanner.next();
+
+        if (a == "Shawn") {
+            System.out.println("Shawn is  #27 on Matt's BFF List");
+        } else {
+            System.err.println("That person is not on Matt's BFF List");
+        }
+        
+        
+        
+        //.out.println("The square of a is: " + a2 + " The square of b is: " + b2 + " The square of c is: " + c2 + " C is: " + c);
+    
+        }   
+}
